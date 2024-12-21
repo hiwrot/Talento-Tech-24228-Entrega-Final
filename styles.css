@@ -11,7 +11,6 @@ main h2{
     background-image: url(img/header.png);
 }
 
-/*====================MODO OSCURO====================*/
 #modo-switch{
     height: 50px;
     width: 50px;
@@ -39,10 +38,6 @@ main h2{
 .modo-oscuro #modo-switch svg:last-child{
     display: block;
 }
-
-
-
-/*====================MODO OSCURO====================*/
 
 #titulo-header h1 {
     color: white;
@@ -139,7 +134,6 @@ footer {
     cursor: pointer;
 }
 
-/*Iconos*/
 .icono-carrito{
     width: 40px;
     height: 40px;
@@ -321,8 +315,6 @@ form button:hover{
         margin: 10px 0;
     }
 }
-
-/*=====================Modo Oscuro==============================*/
 
 body.modo-oscuro{
     background-color: rgb(78, 78, 196);
