@@ -1,0 +1,391 @@
+body {
+    font-family: Roboto,sans-serif;
+    background-color: #1A1A1D;
+}
+
+main h2{
+    color: white;
+}
+
+.imagen-fondo{
+    background-image: url('/trabajo/img/header.png');
+}
+
+/*====================MODO OSCURO====================*/
+#modo-switch{
+    height: 50px;
+    width: 50px;
+    padding: 0;
+    margin: 5px;
+    border-radius: 50%;
+    background-color: yellowgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#modo-switch svg{
+    fill: black;
+}
+
+#modo-switch svg:last-child{
+    display: none;
+}
+
+.modo-oscuro #modo-switch svg:first-child{
+    display: none;
+}
+
+.modo-oscuro #modo-switch svg:last-child{
+    display: block;
+}
+
+
+
+/*====================MODO OSCURO====================*/
+
+#titulo-header h1 {
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+    justify-content: space-between;
+}
+
+header h3{
+    float: right;
+}
+
+#inicio-header {
+    padding: 10px;
+}
+
+#inicio-header ul{
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+#inicio-header li{
+    margin-left: 20px;
+}
+
+#inicio-header a {
+    color: white;
+    text-decoration: none;
+}
+
+#inicio-header a:hover{
+    color: #007bff;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    /*position: fixed;*/
+    width: 100%;
+    bottom: 0;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.carta {
+    color: white;
+    background-color: #1A1A19;
+    border: 2px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    width: 25%;
+}
+
+.carta img {
+    max-width: 100%;
+    margin-left: 25%;
+    transition: all .5s;
+}
+
+.carta:hover{
+    box-shadow: 0 10px 20px   rgb(247, 243, 243);
+}
+
+.carta:hover img{
+    transform: scale(1.8)
+}
+
+.carta figure{
+    overflow: hidden;
+}
+
+.precio{
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.carta button{
+    border: none;
+    background: none;
+    background-color: #fff;
+    color: #000;
+    padding: 15px 10px;
+    cursor: pointer;
+}
+
+/*Iconos*/
+.icono-carrito{
+    width: 40px;
+    height: 40px;
+    color: red;
+    position: absolute;
+    top: 15%;
+    right: 20px;
+}
+
+.icono-carrito:hover{
+    cursor: pointer;
+    transform: scale(1.4)
+}
+
+.container-icono{
+    position: relative;
+}
+
+.contador{
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    background-color: white;
+    color: black;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 15px;
+
+}
+
+.container-carrito-productos{
+    position: absolute;
+    top: 40px;
+    right: 10px;
+    background-color: #06023f;
+    width: 700px;
+    z-index: 1;
+    box-shadow: 0 10px 20px rgb(247, 243, 243);
+    border-radius: 10px;
+    color: #fff;
+}
+
+.carrito-productos{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    border-bottom: 1px solid black;
+}
+
+.info-producto-carrito{
+    display: flex;
+    justify-content: space-between;
+    flex: 0.8;
+}
+
+.titulo-producto{
+    font-size: 20px;
+}
+
+.precio-producto{
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.cantidad-producto{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.icono-cerrar{
+    width: 40px;
+    height: 40px;
+}
+
+.icono-cerrar:hover{
+    stroke: red;
+    cursor: pointer;
+}
+
+.carrito-total{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    gap: 20px;
+}
+
+.carrito-total h3{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.total-pagar{
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.ocultar-carrito{
+    display: none;
+}
+
+.cart-empty{
+    padding: 20px;
+    text-align: center;
+}
+
+.hidden{
+    display: none;
+}
+
+.grid-lista {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.lista {
+    background-color: #C5D3E8;
+    padding: 15px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+#contacto {
+    padding: 20px;
+    background: linear-gradient(to right, #1c069c, #06023f);
+    color: white;
+    margin: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+form label {
+    margin-bottom: 5px;
+}
+
+form input, form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover{
+    color: blue;
+}
+
+@media (max-width: 768px) {
+    .cards {
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    .grid-reviews {
+        grid-template-columns: 1fr;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}
+
+/*=====================Modo Oscuro==============================*/
+
+body.modo-oscuro{
+    background-color: rgb(78, 78, 196);
+}
+
+body.modo-oscuro main h2{
+    color: black;
+}
+
+body.modo-oscuro footer{
+    color: black;
+    background-color: lightblue
+}
+
+body.modo-oscuro .carta{
+    color: black;
+    background-color: lightblue;
+    border: black
+}
+
+body.modo-oscuro .carta:hover{
+    box-shadow: 0 10px 20px   black;
+}
+
+body.modo-oscuro .carta button{
+    background-color: darkblue;
+    color: white;
+}
+
+body.modo-oscuro .contador{
+    background-color: black;
+    color: white;
+}
+
+body.modo-oscuro .container-carrito-productos{
+    background-color: darkblue;
+    box-shadow: rgb(8, 8, 8);
+    color: white;
+}
+
+body.modo-oscuro .carrito-productos{
+    border-bottom: 1px solid black;
+}
+
+body.modo-oscuro .icono-cerrar:hover{
+    stroke: red;
+}
+
+body.modo-oscuro .lista{
+    background-color: lightblue;
+    border: black;
+}
+
+body.modo-oscuro #contacto {
+    background: lightblue;
+    color: black;
+}
+
+body.modo-oscuro form button{
+    background-color: darkblue;
+    color: white;
+}
+
+body.modo-oscuro form button:hover{
+    color: blue;
+}

@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina de Guido Rigueiral</title>
+    <link rel="icon" href="/trabajo/img/icono.ico">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="ModoOscuro.js" defer></script>
+</head>
+<body id="container">
+    <header id="titulo-header">
+        <div class="imagen-fondo">
+        <section id="inicio"></section>
+        <h1>Bienvenido a la Página Web de Guido Rigueiral</h1>
+        <nav id="inicio-header">
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#boosters">Sobres</a></li>
+                <li><a href="#lista-de-cartas">Lista de Cartas</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+        </div>
+        <button id="modo-switch">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m6.364.386-1.591 1.591M21 12h-2.25m-.386 6.364-1.591-1.591M12 18.75V21m-4.773-4.227-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0Z" />
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z" />
+            </svg>   
+        </button>
+        <h3>
+        <div class="container-icono">
+            <div class="container-carrito-icono">
+                <svg 
+                    xmlns="http://www.w3.org/2000/svg" 
+                    fill="none" 
+                    viewBox="0 0 24 24" 
+                    stroke-width="1.5" 
+                    stroke="currentColor" 
+                    class="icono-carrito"
+                >
+                    <path 
+                        stroke-linecap="round" 
+                        stroke-linejoin="round" 
+                        d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 
+                        2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" 
+                    />
+                </svg>
+                <div class="contador">
+                    <span id="contador-carrito">0</span>
+                </div>
+            </div>
+
+            <div class="container-carrito-productos ocultar-carrito">
+                <div class="row-producto hidden">
+                    <div class="carrito-productos">
+                        <div class="info-producto-carrito">
+                            <span class="cantidad-producto">1</span>
+                            <p class="titulo-producto">a</p>
+                            <span class="precio-producto">$20</span>
+                        </div>
+                        <svg 
+                            xmlns="http://www.w3.org/2000/svg" 
+                            fill="none" 
+                            viewBox="0 0 24 24" 
+                            stroke-width="1.5" 
+                            stroke="currentColor" 
+                            class="icono-cerrar"
+                        >
+                            <path 
+                                stroke-linecap="round" 
+                                stroke-linejoin="round" 
+                                d="m9.75 9.75 4.5 4.5m0-4.5-4.5 4.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
+                            />
+                        </svg>      
+                    </div>
+                </div>
+
+                <div class="carrito-total hidden">
+                    <h3>Total:</h3>
+                    <span class="total-pagar">$0</span>
+                </div>
+                <p class="cart-empty">El carrito esta vacio</p>
+            </div>
+        </div>
+        </h3>
+    </header>
+    <main>
+        <div class="container-boosters">
+        <section id="boosters">
+            <h2>Sobres</h2>
+            <div class="cards">
+                <div class="carta">
+                    <figure>
+                        <img src="/trabajo/img/lobewd.png" alt="LoBEWD" width="200" height="300">
+                    </figure>
+                    <div class="info-carta">
+                        <h3>
+                        <em><u>Leyenda del Dragon Blanco de Ojos Azules</u></em>
+                        </h3>
+                        <p><small>La "Leyenda del Dragon Blanco de Ojos Azules" fue la primera coleccion</small><br>
+                        <small>del juego de cartas Yu-Gi-Oh!. Se lanzo por primera vez <br></small>
+                        <small>el <u>8 de marzo</u> de <u>2002</u> en America del Norte.</small></p>
+                        <small>La caja contiene <u>24</u> sobres que traen <u>9</u> cartas cada uno.</small>
+                        <p class="precio">$154.99</p>
+                        <button class="btn-add-carrito">Agregar al Carrito</button>
+                    </div>    
+                </div>
+                <div class="carta">
+                    <figure>
+                        <img src="/trabajo/img/mr.png" alt="mr" width="200" height="300">
+                    </figure>    
+                    <div class="info-carta">
+                        <h3><u>Predadores Metálicos</u></h3>
+                        <p><small>El Sobre de Expansión: "Predadores Metálicos" fue la segunda coleccion</small><br>
+                        <small>del juego de cartas Yu-Gi-Oh!. Se lanzo por primera vez <br></small>
+                     <small>el <u>26 de Junio</u> de <u>2002</u> en America del Norte.</small></p>
+                        <small>La caja contiene <u>24</u> sobres que traen <u>10</u> cartas cada uno.</small>
+                        <p class="precio">$79.95</p>
+                        <button class="btn-add-carrito">Agregar al Carrito</button>
+                    </div>
+                </div>
+                <div class="carta">
+                    <figure>
+                        <img src="/trabajo/img/sp.png" alt="sp" width="200" height="300">
+                    </figure>
+                    <h3><u>Señor de Hechizos</u></h3>
+                    <p><small>El Sobre de Expansión: "Señor de Hechizos" fue la tercera coleccion</small><br>
+                    <small>del juego de cartas Yu-Gi-Oh!. Se lanzo por primera vez <br></small>
+                    <small>el <u>16 de Septiembre</u> de <u>2002</u> en America del Norte.</small></p>
+                    <small>La caja contiene <u>24</u> sobres que traen <u>9</u> cartas cada uno.</small>
+                    <p class="precio">$79.91</p>
+                    <button class="btn-add-carrito">Agregar al Carrito</button>
+                </div>
+            </div>
+        </div>
+        </section>
+
+        <section id="lista-de-cartas">
+            <h2><em>Lista de Cartas:</em></h2>
+            <div class="grid-lista">
+                <div class="lista"> 
+                    <ul id="nombres-cartas">
+                    <li><a href="/trabajo/img/trihorned.jpg" target="_blank"><small>Tri-Horned Dragon</small></a></li>
+                    <li><a href="/trabajo/img/blue-eyes.jpg" target="_blank"><small>Blue-Eyes White Dragon</small></a></li>
+                    <li><a href="/trabajo/img/Hitotsu-Me Giant.jpg" target="_blank"><small>Hitotsu-Me Giant</small></a></li>
+                    <li><a href="/trabajo/img/Flame Swordsman.jpg" target="_blank"><small>Flame Swordsman</small></a></li>
+                    <li><a href="/trabajo/img/Skull Servant.jpg" target="_blank"><small>Skull Servant</small></a></li>
+                    <li><a href="/trabajo/img/Dark Magician.jpg" target="_blank"><small>Dark Magician</small></a></li>
+                    <li><a href="/trabajo/img/Gaia The Fierce Knight.jpg" target="_blank"><small>Gaia the Fierce Knight</small></a></li>
+                    <li><a href="/trabajo/img/Celtic Guardian.jpg" target="_blank"><small>Celtic Guardian</small></a></li>
+                    <li><a href="/trabajo/img/Basic Insect.jpg" target="_blank"><small>Basic Insect</small></a></li>
+                    <li><a href="/trabajo/img/Silver Fang.jpg" target="_blank"><small>Silver Fang</small></a></li>
+                    <li><a href="/trabajo/img/Mammoth Graveyard.jpg" target="_blank"><small>Mammoth Graveyard</small></a></li>
+                    <li><a href="/trabajo/img/Dark Gray.jpg" target="_blank"><small>Dark Gray</small></a></li>
+                    <li><a href="/trabajo/img/Trial of Nightmare.jpg" target="_blank"><small>Trial of Nightmare</small></a></li>
+                    <li><a href="/trabajo/img/Monster Egg.jpg" target="_blank"><small>Monster Egg</small></a></li>
+                    <li><a href="/trabajo/img/Firegrass.jpg" target="_blank"><small>Firegrass</small></a></li>
+                    <li><a href="/trabajo/img/Darkfire Dragon.jpg" target="_blank"><small>Darkfire Dragon</small></a></li>
+                    <li><a href="/trabajo/img/Flame Manipulator.jpg" target="_blank"><small>Flame Manipulator</small></a></li>
+                    <li><a href="/trabajo/img/Nemuriko.jpg" target="_blank"><small>Nemuriko</small></a></li>
+                    <li><a href="/trabajo/img/Charubin the Fire Knight.jpg" target="_blank"><small>Charubin the Fire Knight</small></a></li>
+                    <li><a href="/trabajo/img/The 13th Grave.jpg" target="_blank"><small>The 13th Grave</small></a></li>
+                    <li>Y otras 106 Cartas mas</li>
+                    </ul>
+                </div>
+                <div class="lista">
+                    <ul1>
+                    <li><a href="/trabajo/img/Armored Lizard.jpg" target="_blank"><small>Armored Lizard</small></a></li>
+                    <li><a href="/trabajo/img/Feral Imp.jpg" target="_blank"><small>Feral Imp</small></a></li>
+                    <li><a href="/trabajo/img/Gate Guardian.jpg" target="_blank"><small>Gate Guardian</small></a></li>
+                    <li><a href="/trabajo/img/Harpie Lady Sisters.jpg" target="_blank"><small>Harpie Lady Sisters</small></a></li>
+                    <li><a href="/trabajo/img/Harpie Lady.jpg" target="_blank"><small>Harpie Lady</small></a></li>  
+                    </ul1>
+                    <ul2>
+                    <li><a href="/trabajo/img/Killer Needle.jpg" target="_blank"><small>Killer Needle</small></a></li>  
+                    <li><a href="/trabajo/img/Larvae Moth.jpg" target="_blank"><small>Larvae Moth</small></a></li> 
+                    <li><a href="/trabajo/img/Rock Ogre Grotto 1.jpg" target="_blank"><small>Rock Ogre Grotto #1</small></a></li>
+                    <li><a href="/trabajo/img/Summoned Skull.jpg" target="_blank"><small>Summoned Skull</small></a></li>
+                    <li><a href="/trabajo/img/Winged Dragon, Guardian of the Fortress 1.jpg" target="_blank"><small>Winged Dragon, Guardian of the Fortress #1</small></a></li>
+                    <li>Y otras 134 Cartas mas</li>
+                    </ul2>
+                </div>
+                <div class="lista">
+                    <ul1>
+                    <li><a href="/trabajo/img/Axe of Despair.jpg" target="_blank"><small>Axe of Despair</small></a></li> 
+                    <li><a href="/trabajo/img/Black Pendant.jpg" target="_blank"><small>Black Pendant</small></a></li>   
+                    <li><a href="/trabajo/img/Blue-Eyes Toon Dragon.jpg" target="_blank"><small>Blue-Eyes Toon Dragon</small></a></li>
+                    <li><a href="/trabajo/img/Electric Snake.jpg" target="_blank"><small>Electric Snake</small></a></li>
+                    <li><a href="/trabajo/img/Horn of Light.jpg" target="_blank"><small>Horn of Light</small></a></li>
+                    </ul1>
+                    <ul2>
+                    <li><a href="/trabajo/img/Malevolent Nuzzler.jpg" target="_blank"><small>Malevolent Nuzzler</small></a></li> 
+                    <li><a href="/trabajo/img/Metal Fish.jpg" target="_blank"><small>Metal Fish</small></a></li>
+                    <li><a href="/trabajo/img/Penguin Knight.jpg" target="_blank"><small>Penguin Knight</small></a></li>
+                    <li><a href="/trabajo/img/Queen Bird.jpg" target="_blank"><small>Queen Bird</small></a></li>
+                    <li><a href="/trabajo/img/Spellbinding Circle.jpg" target="_blank"><small>Spellbinding Circle</small></a></li>
+                    <li>Y otras 94 Cartas mas</li>
+                    </ul2>
+                </div>
+            </div>
+        </section>
+
+         <section id="contacto">
+            <h2>Contacto</h2>
+            <form action="https://formspree.io/f/xnnqvljw" method="POST">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+        <a href="#inicio">Ir al Inicio</a>
+    </main>
+
+    <footer>
+        <p>© 2024 Guido Rigueiral. Todos los derechos reservados.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
