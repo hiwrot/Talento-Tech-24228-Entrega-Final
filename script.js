@@ -29,14 +29,11 @@ btnCart.addEventListener('click', () => {
     removeFromLocalStorage('')
 });
 
-/*===============================*/
 const cartInfo = document.querySelector('.carrito-productos');
 const rowProducto = document.querySelector('.row-producto');
 
-/*Lista*/
 const productosLista = document.querySelector('.container-boosters');
 
-/*==============================*/
 let allProductos = [];
 
 const valorTotal = document.querySelector('.total-pagar');
@@ -90,7 +87,6 @@ rowProducto.addEventListener('click', (e) => {
     }
 });
 
-// Funcion para monstrar HTML
 const showHTML = () => {
     if (!allProductos.length) {
         cartEmpty.classList.remove('hidden');
