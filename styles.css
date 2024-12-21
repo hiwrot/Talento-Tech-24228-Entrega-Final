@@ -23,6 +23,11 @@ main h2{
     align-items: center;
 }
 
+#modo-switch:hover {
+    cursor: pointer;
+    transform: scale(1.2)
+}
+
 #modo-switch svg{
     fill: black;
 }
