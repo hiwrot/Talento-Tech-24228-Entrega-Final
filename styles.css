@@ -8,7 +8,7 @@ main h2{
 }
 
 .imagen-fondo{
-    background-image: url('img/header.png');
+    background-image: url(img/header.png);
 }
 
 /*====================MODO OSCURO====================*/
